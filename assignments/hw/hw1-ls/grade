@@ -1,6 +1,6 @@
-65 / 100
+ 65   / 100  
 
-+15: Coloring
+    +15: Coloring
 -25: Valgrind
 $ valgrind ./ls -laR
 ==11112== Memcheck, a memory error detector
