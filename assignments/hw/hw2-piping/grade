@@ -1,4 +1,6 @@
- 0 / 100
+ 30 / 100
+
+regraded in office hours
 
 -25: memory leak found in valgrind
 -75: no tests/piping.script found, and couldn't run any piping or redirection successfully
@@ -39,7 +41,7 @@ valgrind output:
 ==39069== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
 ==39069== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
 ==39069== Command: bin/rshell
-==39069== 
+==39069==
 Welcome to rshell!
 celikkae@hammer.cs.ucr.edu > bin
 LICENSE
