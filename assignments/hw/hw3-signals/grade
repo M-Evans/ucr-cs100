@@ -1,4 +1,4 @@
-70 / 100
+90 / 100
 
 PATH variable: 10/40
     [00/10] Execute a program in the working directory.
@@ -18,9 +18,9 @@ cd and prompt: 30/30
     [7/7] Change to a directory specified using an absolute path.
     [7/7] Change to a directory which does not exist.
 
-extra credit: 00/20
+extra credit: 20/20
     [7/7] ^Z
     [6/6] fg
     [6/6] bg
 
-Total: 70/100
+Total: 90/100
