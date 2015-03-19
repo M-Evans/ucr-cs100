@@ -1,7 +1,6 @@
-#/bin/bash
+#/bin/sh
 
-# Written by Michael Evans in February 2015 
-# Released under MIT
+# Released by Michael Evans under MIT
 
 # This script takes a shell, a test file, and (optionally)
 # a delay as parameters and runs the test files in the
@@ -123,9 +122,9 @@ COMMAND_SHELL=${1}
 # second argument is for testfiles
 TEST_CASE_FILES=${2}
 # third argument is delay
-# defaults to 100000
+# defaults to 300000
 # (see http://www.tldp.org/LDP/abs/html/parameter-substitution.html)
-U_DELAY=${3:-100000}
+U_DELAY=${3:-300000}
 # current process id
 # (see http://tldp.org/LDP/abs/html/internalvariables.html)
 CUR_PID=$$
