@@ -46,13 +46,13 @@ For this assignment, you are not required to run your tests through ``rshell``.
 
 ### hw2
 In [hw2](https://github.com/mikeizbicki/ucr-cs100/#course-schedules), you're required to implement several different piping and redirection features that use ``<``, ``>``, ``>>``, and ``|`` as part of their syntax.
-Here's how you would run your tests for hw2: ``cs100-runtests rshell tests/piping``.
+Here's how you would run your tests for hw2: ``cs100-runtests bin/rshell tests/piping``.
 [tests/pipingExampleTest](tests/pipingExampleTest) contains a set of example test cases for hw2.
 
 ### hw3
 In [hw3](https://github.com/mikeizbicki/ucr-cs100/#course-schedules), you're required to execute commands by searching the ``PATH`` environment variable, catch and handle when the user types ``Ctrl+c``, and implement ``cd``.
 The extra credit is given for handling when the user types ``Ctrl+z``, as well as implementing ``fg`` and ``bg``.
-Here's how you would run your tests for hw3: ``cs100-runtests rshell tests/signals``.
+Here's how you would run your tests for hw3: ``cs100-runtests bin/rshell tests/signals``.
 [tests/signalsExampleTest](tests/signalsExampleTest) contains a set of example test cases for hw3.
 
 You must put the [ASCII end of text character](http://en.wikipedia.org/wiki/End-of-text_character) in the test file to send ``SIGINT`` to your ``rshell``.
